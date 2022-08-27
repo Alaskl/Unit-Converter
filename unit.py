@@ -24,7 +24,7 @@ def miles_km():
 
 print_menu()
 
-option = input('choose which conversion you want')
+option = input('choose between A (km to miles) or B (miles to km)')
 
 if option == 'A':
     km_miles()
