@@ -10,7 +10,7 @@ def print_menu():
 
 def km_miles():
     km = float(input('Enter the kilometer value:'))
-    print('Kilometers:'.format(km))
+    print('Miles:'.format(km))
     miles = km/1.609
     print(miles)
 
@@ -18,7 +18,7 @@ def km_miles():
 
 def miles_km():
     miles = float(input('Enter the mile value')) 
-    print('Miles:'.format(miles))
+    print('Kilometers:'.format(miles))
     km = miles * 1.609
     print(km)
 
